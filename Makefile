@@ -13,5 +13,6 @@ reinstall: uninstall install
 
 clean:
 	dune clean
+	dune install $(INS
 
 .PHONY: default install uninstall reinstall clean
